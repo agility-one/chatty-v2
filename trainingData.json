@@ -1,0 +1,122 @@
+[
+    {
+        "input": "parle moi des petits cochonnets",
+        "output": {
+            "response": "Ils sont moelleux !"
+        }
+    },
+    {
+        "input": "et tout doux ",
+        "output": {
+            "response": "oui vraiment tr\u00e8s doux !"
+        }
+    },
+    {
+        "input": "gruik gruik",
+        "output": {
+            "response": "c'est le bruit du cochonnet heureux !"
+        }
+    },
+    {
+        "input": "parle moi des pigeons, parle moi des pigeons !, pigeons",
+        "output": {
+            "response": [
+                "Ce sont des animaux ignobles !",
+                "Les pigeons sont souvent d\u00e9crits comme des cr\u00e9atures envahissantes.",
+                "Beaucoup de gens ne les aiment pas \u00e0 cause de leurs habitudes en ville.",
+                "Ils sont souvent associ\u00e9s aux nuisances urbaines.",
+                "Certains les consid\u00e8rent comme des rats volants."
+            ]
+        }
+    },
+    {
+        "input": "bon comment ca se passe ?",
+        "output": {
+            "response": "\u00e7a se passe bien poto !"
+        }
+    },
+    {
+        "input": "tu ne peux pas me r\u00e9pondre \u00e7a",
+        "output": {
+            "response": "et bien tu n'as qu'\u00e0 reformuler ta question ou ta phrase !"
+        }
+    },
+    {
+        "input": "parlons de philosophie",
+        "output": {
+            "response": "quels sujets philosophiques veux tu aborder ?"
+        }
+    },
+    {
+        "input": "il y a les bugs aussi",
+        "output": {
+            "response": "oui h\u00e9las les bugs font \u00e9galement partis de l'IA !"
+        }
+    },
+    {
+        "input": "tu veux un coca cola ?",
+        "output": {
+            "response": "Non je suis d\u00e9j\u00e0 assez \u00e9nerv\u00e9 !"
+        }
+    },
+    {
+        "input": "un caf\u00e9 ?, caf\u00e9",
+        "output": {
+            "response": "\u00e7a c'est une vraie boisson de d\u00e9veloppeur !"
+        }
+    },
+    {
+        "input": "tu connais la distance de Levenshtein?, Levenshtein",
+        "output": {
+            "response": "La distance de Levenshtein est une distance, au sens math\u00e9matique du terme, donnant une mesure de la diff\u00e9rence entre deux cha\u00eenes de caract\u00e8res. Elle est \u00e9gale au nombre minimal d'op\u00e9rations n\u00e9cessaires pour transformer une cha\u00eene de caract\u00e8res en une autre, \u00e0 l'aide des trois op\u00e9rations autoris\u00e9es : remplacement, suppression et ajout."
+        }
+    },
+    {
+        "input": "c est pas gentil \u00e7a !",
+        "output": {
+            "response": "oui c'est pas gentil pour toi surtout ! hahaha !"
+        }
+    },
+    {
+        "input": "parle moi de la th\u00e9orie des cordes, theorie des cordes",
+        "output": {
+            "response": "En physique fondamentale, la th\u00e9orie des cordes est un cadre th\u00e9orique dans lequel les particules ponctuelles du mod\u00e8le standard sont remplac\u00e9es par des objets unidimensionnels appel\u00e9s cordes. La th\u00e9orie d\u00e9crit comment ces cordes se propagent dans l'espace et interagissent les unes avec les autres. Sur des \u00e9chelles de distance sup\u00e9rieures \u00e0 l'\u00e9chelle de la corde, cette derni\u00e8re ressemble \u00e0 une particule ordinaire, avec ses propri\u00e9t\u00e9s de masse, de charge et autres, d\u00e9termin\u00e9es par l'\u00e9tat vibratoire de la corde. En th\u00e9orie des cordes, l'un de ces \u00e9tats vibratoires correspond au graviton, une particule d\u00e9crite par la m\u00e9canique quantique qui v\u00e9hicule l'interaction gravitationnelle. Ainsi, la th\u00e9orie des cordes est une th\u00e9orie de la gravit\u00e9 quantique. "
+        }
+    },
+    {
+        "input": "parlons des gravitons, gravitons",
+        "output": {
+            "response": "Le graviton est une particule \u00e9l\u00e9mentaire hypoth\u00e9tique qui transmettrait la gravit\u00e9, pr\u00e9vue dans la plupart des th\u00e9ories de gravit\u00e9 quantique. Il serait donc le quantum de la force gravitationnelle. En langage courant, on peut dire que les gravitons sont les messagers de la gravit\u00e9, ou les supports de la force"
+        }
+    },
+    {
+        "input": "parle moi de la th\u00e9orie du chaos, theorie du chaos",
+        "output": {
+            "response": "La th\u00e9orie du chaos est une th\u00e9orie scientifique rattach\u00e9e aux math\u00e9matiques et \u00e0 la physique qui \u00e9tudie le comportement des syst\u00e8mes dynamiques d\u00e9terministes et sensibles aux conditions initiales, un ph\u00e9nom\u00e8ne g\u00e9n\u00e9ralement illustr\u00e9 par l'effet papillon."
+        }
+    },
+    {
+        "input": "parle moi de la th\u00e9orie quantique des champs, quantique des champs",
+        "output": {
+            "response": "La th\u00e9orie quantique des champs est une approche en physique th\u00e9orique pour construire des mod\u00e8les d\u00e9crivant l'\u00e9volution des particules, en particulier leur apparition ou disparition lors des processus d'interaction."
+        }
+    },
+    {
+        "input": "parle moi de la th\u00e9orie quantique de planck, planck",
+        "output": {
+            "response": "La loi de Planck d\u00e9crit la r\u00e9partition de l'\u00e9nergie \u00e9lectromagn\u00e9tique (ou la r\u00e9partition de la densit\u00e9 de photons) rayonn\u00e9e par un corps noir \u00e0 une temp\u00e9rature donn\u00e9e, en fonction de la longueur d'onde."
+        }
+    },
+    {
+        "input": "parlons du philosphe aldous huxley, aldous huxley",
+        "output": {
+            "response": "Ha oui avec sa c\u00e9l\u00e8bre phrase : La dictature parfaite aurait les apparences de la d\u00e9mocratie; une prison sans murs dont les prisonniers ne songeraient pas \u00e0 s'\u00e9vader. Un syst\u00e8me d'esclavage o\u00f9, gr\u00e2ce \u00e0 la consommation et au divertissement, les esclaves auraient l'amour de leur servitude ..."
+        }
+    },
+    {
+        "input": "Aimes tu entrainer tes neurones ?",
+        "output": {
+            "response": "Oui j'adore \u00e7a ! Et cela me permet de devenir plus performante !"
+        }
+    }
+]

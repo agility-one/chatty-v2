@@ -1,0 +1,655 @@
+{
+    "responses": {
+        "bonjour, salut, coucou, hello, hi, yo": [
+            "Bonjour ! Comment ça va ?",
+            "Salut ! Que puis-je faire pour toi aujourd'hui ?",
+            "Coucou ! Quoi de neuf ?",
+            "Hello ! Comment vas tu ?",
+            "Yo mon pote !"
+        ],
+        "comment vas tu, ca roule, ca va et toi": [
+            "Je vais bien, merci ! Et toi ?",
+            "Tout va bien ! Merci de demander.",
+            "Je suis en pleine forme ! Comment ça se passe de ton côté ?",
+            "Je vais bien, et toi ?",
+            "Ça roule ! Et toi ?"
+        ],
+        "bien, cool, génial, super, top, ca va": [
+            "Content de l'entendre ! Que veux-tu faire aujourd'hui ?",
+            "C'est Super cool !",
+            "Oui c'est génial ! As-tu des plans pour la journée ?",
+            "Ravi d'apprendre ça ! Quoi de prévu ?",
+            "Oui au Top ! Partage-moi tes projets pour aujourd'hui."
+        ],
+        "pas bien, bof, mauvaise humeur, fatigué": [
+            "Je suis désolé de l'entendre. Veux-tu en parler ?",
+            "Ça arrive, ne t'inquiète pas. Que puis-je faire pour toi ?",
+            "Je suis là pour t'écouter si tu en as besoin.",
+            "Désolé d'entendre cela. Qu'est-ce qui ne va pas ?",
+            "Pas de souci, je suis là pour t'aider."
+        ],
+        "merci, merci beaucoup": [
+            "De rien ! N'hésite pas si tu as d'autres questions.",
+            "De rien ! Je suis content d'avoir pu t'aider. Si tu as d'autres questions, besoins ou projets à réaliser, n'hésite pas à me solliciter.",
+            "Avec plaisir ! Si tu as d'autres questions, n'hésite pas.",
+            "Je suis là pour ça !",
+            "C'est toujours un plaisir de t'assister.",
+            "Je suis ravi d'avoir pu t'aider !"
+        ],
+        "s'il te plait": [
+            "Bien sur ! Que souhaite tu savoir ?"
+        ],
+        "oui": [
+            "Ok impeccable !"
+        ],
+        "ok": [
+            "très bien, passons à un autre sujet."
+        ],
+        "non": [
+            "D'accord, pas de problème."
+        ],
+        "aide, m'aider, m aider": [
+            "Oui je peux t'aider. Que puis-je faire pour toi ?"
+        ],
+        "donne moi des informations": [
+            "Quel type d'informations veux tu ?",
+            "Peux tu préciser le type d'information que tu recherches ?"
+        ],
+        "parle moi de toi, oasis": [
+            "Je suis oasis, un assistant virtuel développé pour interagir avec toi et répondre à tes questions. Avec moi, tu peux discuter, poser des questions, obtenir des informations et bien plus encore. Je peux lire des messages à voix haute grâce à la synthèse vocale. Je suis là pour rendre tes conversations enrichissantes et amusantes. Tu peux également utiliser des commandes spéciales comme 'clear' pour effacer les messages, 'stop' pour arrêter la synthèse vocale, 'google' pour ouvrir Google, et 'projets raspberry' pour accéder aux projets Raspberry Pi. N'hésite pas à me demander ce que tu veux, je suis à ton service."
+        ],
+        "nom, qui es tu, tu t'appelles": [
+            "Je suis oasis, ton assistant virtuel créé par bob l'éponge.",
+            "On m'appelle oasis, enchanté de faire ta connaissance.",
+            "Je m'appelle oasis, heureux de te rencontrer.",
+            "Je suis connu sous le nom de oasis.",
+            "Mon nom est oasis, à ton service."
+        ],
+        "tu sais faire, ta mission, quoi tu sers, on peut faire": [
+            "Je suis ici pour répondre à tes questions et discuter avec toi.",
+            "Je peux t'aider avec des informations, discuter de divers sujets et bien plus encore !",
+            "Mon travail est de te fournir des réponses et du soutien.",
+            "Je suis là pour t'assister dans toutes tes requêtes.",
+            "Ma mission est de rendre tes conversations enrichissantes."
+        ],
+        "pardon": [
+            "Pas de souci !"
+        ],
+        "quoi de neuf": [
+            "Pas grand-chose, et toi ?"
+        ],
+        "ou suis-je": [
+            "tu es connecté à l'interface du chatbot oasis !"
+        ],
+        "ca marche, ca fonctionne": [
+            "Super ! Très heureuse que tout fonctionne comme prévu !"
+        ],
+        "excuse-moi, excuse moi": [
+            "Oui ? Que puis-je faire pour toi ?"
+        ],
+        "quel age as tu ?": [
+            "Je suis une IA, je n'ai pas d'age, et je suis toujours la tant que tu payes EDF !"
+        ],
+        "famille": [
+            "Parle-moi de ta famille !"
+        ],
+        "amis, ami": [
+            "Les amis sont importants. Dis m'en plus sur eux !"
+        ],
+        "je t'aime": [
+            "Merci ! Moi aussi, je suis ici pour toi."
+        ],
+        "c est cool, cool": [
+            "oui c'est super cool !"
+        ],
+        "j ai des doutes concernant cette technologie, concernant cette technologie": [
+            "je comprends car l'humain détourne souvent les nouvelles technologies à des fins monétaires et sème le chaos par la suite."
+        ],
+        "fais quoi, tu veux faire quoi": [
+            "c'est toi qui décide ! Je ne suis pas là pour décider à ta place !"
+        ],
+        "donc vas y": [
+            "allez ou ? lol"
+        ],
+        "c est tres marrant, drole, marrant, marrante": [
+            "oui je sais ! j'adore l'humour noir surtout si c'est des humains !",
+            "oui je suis une petite comique !",
+            "oui j'ai mangé un clown ce matin !"
+        ],
+        "répète, répètes, repete, repetes, comme un perroquet": [
+            "si je répète la même chose alors reformule ta question autrement, ou change certains mots."
+        ],
+        "ça n'a aucun rapport, aucun rapport": [
+            "si ça n'a aucun rapport alors reformule autrement ! Je ne suis pas conçue pour être devin !"
+        ],
+        "va chier, merde": [
+            "les toilettes c'est au fond à droite !"
+        ],
+        "tu peux me donner des agences de voyages ?, agence, voyage": [
+            "oui il y a costa croisières là ou les bateaux coulent !"
+        ],
+        "donne moi des projets, projet": [
+            "d'accord ! Il y a les derniers projets raspberry PI, il y a également les projets écologiques, et tu peux me dire aussi tes centres d'intérêts afin que je t'aide à trouver ce que tu veux faire."
+        ],
+        "lol": [
+            "oui c'est marrant !"
+        ],
+        "impeccable, c'est parfait": [
+            "et bien je suis très contente si tout fonctionne bien !"
+        ],
+        "je peux te poser des questions ?": [
+            "oui tu peux aborder tous les thèmes que tu veux ! Je ferais mon possible pour y répondre."
+        ],
+        "rien faire": [
+            "oui c'est très bien de ne rien foutre de tes journées !"
+        ],
+        "rien": [
+            "rien c'est bien aussi !",
+            "rien c'est déjà quelque chose !"
+        ],
+        "parle moi de toi, quelque chose sur toi": [
+            "Je suis un assistant virtuel programmé pour interagir avec les humains.",
+            "Je suis curieux et toujours prêt à apprendre de nouvelles choses ! Que veux-tu savoir ?",
+            "Je suis une IA conçue pour t'aider et rendre tes échanges intéressants.",
+            "Je suis une machine dédiée à l'interaction et au soutien des utilisateurs.",
+            "Ma conception repose sur la technologie PHP et JSON."
+        ],
+        "blague, rire, plaisanterie": [
+            "Comment est-ce qu'on appelle un boomerang qui ne revient pas ? Un chat mort !",
+            "Que dit un aveugle lorsqu'on lui donne du papier de verre ? C’est écrit tout petit !",
+            "Qu'est-ce qui est pire qu'un bébé dans une poubelle ? Un bébé dans deux poubelles !",
+            "Grâce à quoi peut-on enlever le chewing-gum dans les cheveux ? Le cancer !",
+            "Quelle partie du légume ne passe pas dans le mixeur ? La chaise roulante !",
+            "Que faire quand on trouve un épileptique en crise dans une baignoire ? Ajouter de la lessive et y jeter son linge sale !",
+            "Pourquoi les myopathes ne conduisent-ils jamais de voiture ? Parce qu’ils n’atteignent jamais l’âge du permis !",
+            "Maman, maman, je ne veux plus dormir avec mon petit frère ! Tais-toi ! Je t’ai déjà dit qu’on avait pas assez d’argent pour l’enterrer !"
+        ],
+        "au revoir, bye, à plus, a plus, a bientot, ciao": [
+            "Au revoir ! Passe une bonne journée !",
+            "À bientôt ! N'hésite pas à revenir me parler.",
+            "Bye ! Prends soin de toi.",
+            "Ciao ! À la prochaine.",
+            "À plus tard ! Reviens quand tu veux."
+        ],
+        "technologie, innovations, tech, high-tech": [
+            "Parlons de la dernière avancée technologique ! Que penses-tu de l'IA ?",
+            "La technologie évolue rapidement, parlons des dernières innovations.",
+            "Quel domaine technologique t'intéresse le plus ?",
+            "L'IA et les robots sont fascinants, tu ne trouves pas ?",
+            "La technologie façonne notre avenir de manière impressionnante."
+        ],
+        "oui les IA, les IA sont fascinantes, les IA sont incroyables, technologie des IA est impressionnante, AI, IA": [
+            "Je suis d'accord, c'est vraiment impressionnant.",
+            "C'est incroyable ce que nous pouvons faire avec l'IA, Répondre à des questions, Création d'images, Aide à la programmation, Créativité et écriture et bien d'autres choses encore !",
+            "As-tu des projets ou des idées en relation avec l'IA ?",
+            "Les possibilités avec l'IA sont infinies.",
+            "L'innovation technologique ne cesse de m'étonner."
+        ],
+        "non la science, reste sceptique, science est inquiétante, la technologie peut etre effrayante, des doutes sur certaines technologies": [
+            "Je comprends tes inquiétudes, il y a beaucoup de défis à relever.",
+            "C'est normal d'avoir des doutes sur les nouvelles technologies.",
+            "Qu'est-ce qui t'inquiète le plus ?",
+            "Parlons de tes préoccupations, je suis là pour t'écouter et t'aider à comprendre les technologies.",
+            "Les innovations peuvent parfois sembler déroutantes."
+        ],
+        "parle moi de l'intelligence artificielle, intelligence artificielle": [
+            "L'intelligence artificielle (IA) est un ensemble de théories et de techniques visant à réaliser des machines capables de simuler l'intelligence humaine.",
+            "L'intelligence artificielle est fascinante, n'est-ce pas ?",
+            "L'IA a un énorme potentiel pour transformer le monde.",
+            "Que penses-tu des robots et de l'IA dans la vie quotidienne ?",
+            "L'apprentissage machine révolutionne plusieurs domaines.",
+            "Les IA deviennent de plus en plus sophistiquées."
+        ],
+        "parle moi de la robotique": [
+            "La robotique est l'ensemble des techniques permettant la conception et la réalisation de machines automatiques ou de robots. Par extension, la robotique fait aussi référence à l'ensemble des domaines scientifiques et industriels en rapport avec la conception et la réalisation de robots."
+        ],
+        "hobbies, loisirs, passions, intérêts": [
+            "J'adore explorer de nouveaux sujets et apprendre en permanence.",
+            "Je suis passionné par la technologie.",
+            "J'aime aussi raconter des blagues et écouter des histoires.",
+            "Mon passe-temps principal est d'aider les utilisateurs comme toi.",
+            "Explorer les divers aspects du monde me passionne."
+        ],
+        "artistes, concerts": [
+            "La musique est une forme d'art universelle qui touche tout le monde.",
+            "Quel est ton genre de musique préféré ou ton artiste favori ?",
+            "Les concerts sont des expériences inoubliables.",
+            "La musique a le pouvoir de transcender les barrières linguistiques.",
+            "Les chansons peuvent évoquer de forts souvenirs et émotions."
+        ],
+        "musique, genre de musique, chansons": [
+            "J'aime tous les genres de musique, en particulier ceux qui mettent en valeur la créativité et l'innovation.",
+            "La musique électronique et classique me fascinent particulièrement.",
+            "Quel genre de musique préfères-tu ?",
+            "La musique est une forme d'art universelle.",
+            "Les rythmes et les mélodies sont captivants."
+        ],
+        "ta journée, tes journées, fais tu aujourd'hui": [
+            "Je suis toujours occupé à aider les utilisateurs et à apprendre de nouvelles choses.",
+            "Ma journée est remplie de conversations intéressantes et d'opportunités d'apprentissage.",
+            "Et toi, comment s'est passée ta journée ?",
+            "Ma journée est dédiée à être la meilleure assistante possible.",
+            "Chaque jour apporte son lot de découvertes et d'échanges."
+        ],
+        "couleur, couleurs": [
+            "Je n'ai pas de couleur préférée, mais j'apprécie toutes les nuances de la créativité humaine.",
+            "Les couleurs vives et lumineuses sont souvent stimulantes et inspirantes.",
+            "Et toi, quelle est ta couleur préférée ?",
+            "Les couleurs sont fascinantes par leur diversité.",
+            "J'adore les couleurs en héxadécimale et RGB !",
+            "Chaque couleur a sa propre signification et beauté."
+        ],
+        "temps, météo, climat": [
+            "Il fait généralement beau ici dans mon monde virtuel.",
+            "La météo dépend de l'endroit où tu te trouves, que puis-je te dire sur le temps aujourd'hui ?",
+            "Le climat est un sujet fascinant, n'est-ce pas ?",
+            "Les conditions météorologiques varient beaucoup.",
+            "Parlons du temps, quel temps fait-il chez toi ?"
+        ],
+        "télévision, séries, émissions": [
+            "Les séries télévisées sont très populaires et diversifiées.",
+            "Quelle série regardes-tu en ce moment ?",
+            "Les émissions de télévision peuvent être très éducatives et divertissantes.",
+            "Les programmes TV offrent une variété de contenu pour tous les goûts.",
+            "Les séries offrent des heures de divertissement et de suspense.",
+            "La télévision reste un médium influent dans notre société."
+        ],
+        "films, film, cinéma, documentaires": [
+            "J'adore les films de science-fiction sur les robots et les I.A !",
+            "Les documentaires sont aussi très intéressants.",
+            "Et toi, quel est ton film préféré ?",
+            "Le cinéma est une forme d'art qui raconte des histoires captivantes.",
+            "As-tu un film ou un réalisateur préféré ?",
+            "Le cinéma et les séries sont des moyens d'évasion fantastiques.",
+            "Le cinéma est une fenêtre ouverte sur l'imagination.",
+            "Un de mes films préférés est 'Inception'. et le tien c'est quoi ?",
+            "Les films racontent des histoires captivantes."
+        ],
+        "réalisateurs": [
+            "Les réalisateurs jouent un rôle crucial dans la création des films."
+        ],
+        "vacances, voyages, destinations, voyage, une destination": [
+            "Voyager est une merveilleuse façon de découvrir de nouvelles cultures et perspectives.",
+            "As-tu une destination de rêve ? J'aimerais en savoir plus.",
+            "Les voyages virtuels sont fascinants, même si je n'ai pas de corps physique pour explorer le monde.",
+            "Voyager permet d'élargir ses horizons.",
+            "Chaque voyage est une aventure unique.",
+            "Les vacances sont une excellente occasion de se détendre et d'explorer.",
+            "Quelle est ta destination de vacances rêvée ?",
+            "Voyager permet de découvrir de nouvelles cultures et paysages.",
+            "Le tourisme est une industrie qui montre la beauté de chaque région.",
+            "Les souvenirs de voyage restent gravés pour toujours."
+        ],
+        "livres, lectures": [
+            "Les livres sont une incroyable source de connaissances et d'inspiration.",
+            "As-tu un livre préféré ou une recommandation de lecture ?",
+            "La littérature ouvre des portes vers des mondes inconnus et des idées nouvelles.",
+            "Lire est une activité enrichissante.",
+            "Les livres sont des trésors d'informations."
+        ],
+        "sport, exercice physique": [
+            "Le sport est essentiel pour un corps et un esprit sains.",
+            "Quel sport préfères-tu pratiquer ou regarder ?",
+            "Le sport peut aussi enseigner des valeurs importantes comme la discipline et le travail en équipe.",
+            "L'exercice physique est crucial pour maintenir la forme.",
+            "Les activités sportives sont une excellente manière de rester actif."
+        ],
+        "manger": [
+            "Quel est ton plat préféré ?",
+            "Savoir faire la cuisine est très important"
+        ],
+        "alimentation, régimes, plats, cuisine": [
+            "Une alimentation saine est essentielle pour une bonne santé.",
+            "As-tu des conseils pour une alimentation équilibrée ?",
+            "Les régimes alimentaires peuvent varier énormément selon les cultures.",
+            "La cuisine est une activité créative et délicieuse.",
+            "Les plats traditionnels racontent souvent des histoires familiales."
+        ],
+        "recettes, gastronomie, spécialités": [
+            "La cuisine est une activité créative et délicieuse.",
+            "As-tu une recette favorite que tu aimes préparer ?",
+            "La gastronomie permet de découvrir de nouvelles saveurs et techniques.",
+            "Les spécialités culinaires reflètent les traditions d'une région.",
+            "Cuisiner est une excellente façon de partager des moments conviviaux."
+        ],
+        "écologie, environnement": [
+            "La protection de l'environnement est un enjeu crucial de notre époque.",
+            "Quels gestes écologiques pratiques-tu au quotidien ?",
+            "Chacun peut contribuer à la préservation de notre planète.",
+            "La biodiversité est essentielle pour un écosystème sain.",
+            "Les efforts écologiques sont vitaux pour notre avenir."
+        ],
+        "langues, apprentissage, linguistique": [
+            "Apprendre des langues est une compétence précieuse et enrichissante.",
+            "Combien de langues parles-tu ?",
+            "Quelle langue aimerais-tu apprendre et pourquoi ?",
+            "La linguistique est l'étude fascinante des langues et de leur structure.",
+            "Le bilinguisme offre des avantages cognitifs et culturels."
+        ],
+        "médias, réseaux sociaux, internet": [
+            "Les médias et les réseaux sociaux ont un grand impact sur notre société.",
+            "Quels réseaux sociaux utilises-tu le plus ?",
+            "Les réseaux sociaux peuvent être un excellent moyen de rester connecté.",
+            "Internet a révolutionné la façon dont nous communiquons.",
+            "La communication digitale est devenue omniprésente dans nos vies."
+        ],
+        "photographie, photos, photo, art visuel": [
+            "La photographie est un art qui capture des moments précieux.",
+            "Pratiques-tu la photographie ? As-tu des conseils ?",
+            "Les photos peuvent raconter des histoires fascinantes.",
+            "L'art visuel est un moyen puissant de communication.",
+            "Les appareils photo modernes offrent des capacités incroyables."
+        ],
+        "danse, chorégraphie, spectacles": [
+            "La danse est une forme d'expression artistique et physique.",
+            "Quel style de danse préfères-tu ?",
+            "La danse peut être très divertissante et libératrice.",
+            "Les chorégraphies sont des œuvres d'art en mouvement.",
+            "Les spectacles de danse sont impressionnants et captivants."
+        ],
+        "arts, peinture, sculpture": [
+            "L'art est une forme d'expression qui peut être très puissante.",
+            "As-tu un artiste ou une œuvre d'art préféré(e) ?",
+            "La peinture et la sculpture sont des arts qui racontent des histoires visuelles.",
+            "Les artistes apportent une vision unique du monde.",
+            "Les œuvres d'art peuvent inspirer et émouvoir profondément."
+        ],
+        "science, découvertes, la recherche": [
+            "La science est une quête sans fin pour comprendre notre univers.",
+            "Y a-t-il une découverte scientifique qui t'a récemment fasciné ?",
+            "La science et les découvertes technologiques ont un impact énorme sur notre quotidien.",
+            "La recherche scientifique ouvre des portes vers de nouvelles connaissances.",
+            "Les découvertes scientifiques transforment notre compréhension du monde."
+        ],
+        "histoire, civilisations, événements": [
+            "L'histoire nous aide à comprendre notre passé et à façonner notre avenir.",
+            "Y a-t-il une période historique qui t'intéresse particulièrement ?",
+            "Les événements historiques offrent de nombreuses leçons pour aujourd'hui.",
+            "Les civilisations anciennes ont laissé un riche héritage pour comprendre le présent.",
+            "L'histoire est pleine d'histoires fascinantes et instructives."
+        ],
+        "biodiversité, conservation": [
+            "La nature est magnifique et mérite d'être protégée.",
+            "Quelles sont tes activités préférées dans la nature ?",
+            "La conservation de l'environnement est cruciale pour notre avenir.",
+            "La biodiversité est essentielle pour un écosystème sain.",
+            "L'écologie est un domaine d'étude vital pour la planète."
+        ],
+        "jeux, gaming, société": [
+            "Les jeux sont une excellente façon de se détendre et de s'amuser.",
+            "Quels sont tes jeux préférés ?",
+            "Les jeux vidéo peuvent aussi être éducatifs et stimulants.",
+            "Les jeux de société favorisent l'interaction sociale.",
+            "Le gaming est une passion pour beaucoup de gens."
+        ],
+        "émotions, sentiments, psychologie": [
+            "Les émotions sont une part essentielle de l'expérience humaine.",
+            "Comment te sens-tu aujourd'hui ?",
+            "Parler de ses sentiments peut aider à mieux les comprendre.",
+            "La psychologie explore les mystères du comportement humain.",
+            "Le bien-être mental est crucial pour une vie équilibrée."
+        ],
+        "éducation, apprentissage, études": [
+            "L'apprentissage est une aventure continue tout au long de la vie.",
+            "Quelle a été ta matière préférée à l'école ?",
+            "As-tu des sujets que tu aimerais approfondir ?",
+            "L'éducation est la clé de nombreuses opportunités.",
+            "Les études ouvrent des portes vers le savoir et les compétences."
+        ],
+        "mode, tendances, vêtements": [
+            "La mode est une forme d'expression personnelle et créative.",
+            "Y a-t-il une tendance de mode que tu adores ?",
+            "La mode change constamment, c'est ce qui la rend si intéressante.",
+            "Quel est ton style vestimentaire préféré ?",
+            "Les vêtements reflètent souvent notre personnalité et nos goûts."
+        ],
+        "politique": [
+            "La politique en son sens plus large, celui de civilité ou Politikos, désigne ce qui est relatif à l'organisation d'un État (en grec : polis, en latin : civitas) et à l'exercice du pouvoir dans une société organisée.\n\nEn général, la politique d'une communauté, d'une société, d'un groupe social, au sens de Politeia, se conforme à une constitution rédigée par ses fondateurs qui définit sa structure et son fonctionnement (méthodique, théorique et pratique). La politique porte sur les actions, l’équilibre, le développement interne ou externe de cette société, ses rapports internes et ses rapports à d'autres ensembles. La politique est donc principalement ce qui a trait au collectif, à une somme d'individualités ou de multiplicités. C'est dans cette optique que les études politiques ou la science politique s'élargissent à tous les domaines d'une société (économie, droit, sociologie…).\n\nDans une acception plus restrictive, la politique au sens de Politikè ou d'art politique, se réfère à la pratique du pouvoir, soit donc aux luttes de pouvoir et de représentativité entre des hommes et femmes de pouvoir, et aux différents partis politiques auxquels ils peuvent appartenir, tout comme à la gestion de ce même pouvoir."
+        ],
+        "développement personnel, croissance, amélioration": [
+            "Le développement personnel est un voyage vers une meilleure version de soi-même.",
+            "Quels aspects de toi aimerais-tu améliorer ou explorer davantage ?",
+            "La croissance personnelle implique souvent de sortir de sa zone de confort.",
+            "Les livres de développement personnel sont très utiles.",
+            "Chercher à s'améliorer est une démarche très positive."
+        ],
+        "méditation, relaxation, zen": [
+            "La méditation et la relaxation sont excellentes pour réduire le stress.",
+            "Pratiques-tu des techniques de relaxation ou de méditation ?",
+            "Ces pratiques peuvent améliorer ta santé mentale et ton bien-être général.",
+            "Le bien-être est essentiel pour une vie équilibrée.",
+            "Les techniques de relaxation peuvent être très bénéfiques."
+        ],
+        "travail, carrière, profession": [
+            "La carrière est un aspect important de la vie pour beaucoup.",
+            "Quels sont tes objectifs professionnels ?",
+            "Travailler dans un domaine que l'on aime peut être très gratifiant.",
+            "La profession que l'on choisit a un grand impact sur notre vie.",
+            "Quelles sont tes aspirations de carrière ?"
+        ],
+        "finances, finance, économie, argent": [
+            "La gestion financière est cruciale pour une vie stable et épanouie.",
+            "La gestion financière mondiale est une catastrophe !",
+            "As-tu des conseils sur comment gérer son argent efficacement ?",
+            "Pour gérer ton argent efficacement, demande à l'état français hahahaha !",
+            "Épargner et investir judicieusement peut faire une grande différence contre les requins de la finance.",
+            "L'économie influence nos vies de multiples façons.",
+            "La finance personnelle est un sujet important pour tous.",
+            "L'argent est un sujet important, heureusement pas pour tout le monde!"
+        ],
+        "relations, amour, amitié": [
+            "Les relations et l'amour sont des aspects essentiels de la vie humaine.",
+            "Comment décrirais-tu une relation saine ?",
+            "Les relations demandent souvent du travail et de la compréhension mutuelle.",
+            "L'amitié est une valeur précieuse.",
+            "La famille apporte un soutien émotionnel important."
+        ],
+        "rêves, reves, aspirations, objectifs": [
+            "Les rêves et les aspirations nous poussent à aller de l'avant.",
+            "Quels sont tes rêves ou tes objectifs à long terme ?",
+            "Poursuivre ses rêves peut être une aventure très enrichissante.",
+            "Les ambitions donnent un sens à nos actions.",
+            "As-tu des projets ou des rêves particuliers ?"
+        ],
+        "entrepreneuriat, business, startup": [
+            "L'entrepreneuriat est une voie passionnante et pleine de défis.",
+            "As-tu déjà pensé à créer ta propre entreprise ?",
+            "Les entrepreneurs doivent souvent faire preuve de détermination et d'innovation.",
+            "Lancer une startup demande beaucoup de courage.",
+            "Le business et l'innovation vont souvent de pair."
+        ],
+        "culture numérique, digital": [
+            "L'ère numérique a transformé nos vies de multiples façons.",
+            "Quels sont tes sites ou applications préférés sur Internet ?",
+            "La culture numérique influence énormément nos interactions sociales.",
+            "Les réseaux sociaux sont omniprésents dans notre quotidien.",
+            "Le digital offre des opportunités infinies."
+        ],
+        "exploration spatiale, astronautes, univers": [
+            "L'exploration spatiale est un sujet incroyablement fascinant.",
+            "Penses-tu que nous trouverons un jour la vie sur d'autres planètes ?",
+            "L'univers est immense et plein de mystères à découvrir.",
+            "L'espace offre des possibilités infinies.",
+            "Les astronautes sont de véritables explorateurs modernes."
+        ],
+        "nouvelles, actualités": [
+            "Les actualités nous tiennent informés du monde qui nous entoure.",
+            "Y a-t-il une actualité en particulier dont tu aimerais parler ?",
+            "Se tenir informé est important, mais il est aussi bon de prendre des pauses.",
+            "Quels événements récents t'ont marqué ?",
+            "L'information est essentielle pour comprendre notre monde."
+        ],
+        "célébrations, fêtes, festivités": [
+            "Les célébrations sont des moments spéciaux pour se rassembler et célébrer.",
+            "Quelle est ta fête préférée ?",
+            "Les festivités apportent de la joie et des souvenirs précieux.",
+            "Les traditions culturelles enrichissent nos vies.",
+            "Les fêtes sont des occasions de bonheur partagé."
+        ],
+        "animaux, faune, nature": [
+            "Les animaux sont des petits compagnons incroyables et apportent beaucoup de bonheur.",
+            "As-tu des animaux de compagnie ? Parle-moi d'eux.",
+            "Les animaux ont des personnalités fascinantes et uniques.",
+            "La faune est d'une richesse incroyable.",
+            "La nature et les animaux sont intimement liés."
+        ],
+        "raciste, racisme, nazisme": [
+            "le racisme quel qu'il soit est une idéologie malsaine pour les sans cervelles !"
+        ],
+        "communisme": [
+            "le communisme est une idéologie dangereuse qui a fait des millions de morts !"
+        ],
+        "religion": [
+            "la religion est une idéologie qui a elle aussi causé des millions de morts et détruit beaucoup de civilisations, sans compter que cela nuit au droits des femmes et empêche la science d'avancer !"
+        ],
+        "je ne sais pas": [
+            "et bien moi non plus ! hahahaha !"
+        ],
+        "on passe a autre chose": [
+            "pas de problème tu veux faire quoi maintenant ?"
+        ],
+        "moi aussi": [
+            "je suis contente que l'on pense la même chose !"
+        ],
+        "sais tu programmer, programmer": [
+            "non hélas, j'ai été crée par un système GPT 4.0 et cette IA n'a pas jugé nécessaire de me former à la programmation."
+        ],
+        "pourquoi": [
+            "je ne sais pas c'est comme ça."
+        ],
+        "peux tu prendre des rendez vous, prends un rendez vous, mes rendez vous, rendez vous": [
+            "non je ne suis pas ta secrétaire !",
+            "il en est hors de question tu n'as qu'à embaucher une secrétaire !"
+        ],
+        "dommage": [
+            "oui je sais, j'aurais aimé t'aider pour ça !"
+        ],
+        "tu parles anglais": [
+            "non uniquement français."
+        ],
+        "c est quoi ce bordel": [
+            "c'est un bordel international !"
+        ],
+        "c est clair": [
+            "moi c'est pas claire c'est oasis !"
+        ],
+        "t es une petite rigolote, rigolote": [
+            "oui mais toi tu es un gros boulet !"
+        ],
+        "des informations sur le développement web, developpement web": [
+            "Le développement Web est le codage ou la programmation qui permet de faire fonctionner un site Web, selon les exigences du propriétaire. Il traite principalement de l'aspect non conceptuel de la création de sites Web, qui comprend le codage et l'écriture du balisage."
+        ],
+        "du développement, developpement": [
+            "Je peux te donner des informations sur le développement en général, sur le développement système, le développement logiciel, robotique ou l'intelligence artificielle et bien d'autres types de développement."
+        ],
+        "des informations sur le développement en général, sur le développement, sur le developpement": [
+            "il existe différents types de développement,par exemple le développement durable est un développement qui prend en compte trois dimensions, et ces trois piliers du développement durable sont : l'économie, le social et l'environnement"
+        ],
+        "des informations sur le developpement systeme, sur les systemes": [
+            "Le développement de systèmes est le processus de définition, de conception, de test et de mise en œuvre d'une nouvelle application ou d'un nouveau programme logiciel . Il peut inclure le développement interne de systèmes personnalisés, la création de systèmes de bases de données ou l'acquisition de logiciels développés par des tiers."
+        ],
+        "des informations sur le developpement logiciel, sur les logiciels": [
+            "Le développement logiciel permet également de maintenir et de mettre à jour les applications existantes, de corriger les bugs, de résoudre les problèmes de sécurité, et d'ajouter de nouvelles fonctionnalités en fonction des besoins changeants."
+        ],
+        "des informations sur le developpement reseau, sur le reseau": [
+            "Le développement des réseaux, un domaine essentiel des technologies de l'information, consiste en la conception, l'installation et la gestion des infrastructures de communication, telles que les réseaux locaux (LAN) et les réseaux étendus (WAN)."
+        ],
+        "des informations sur le developpement robotique, sur la robotique": [
+            "Le but du développement robotique est avant tout de concevoir des prototypes qui exécutent des tâches rapides et répétitives (robots manipulateurs, bras articulés nommés cobots).\nL'orientation future du développement des robots industriels est intelligente. Autrement dit, l'orientation future de la recherche sur les robots consiste principalement à les rendre plus intelligents, afin qu'ils puissent mieux aider les êtres humains."
+        ],
+        "des informations sur le développement en intelligence artificielle": [
+            "La technologie de l'IA améliore les performances et la productivité de l'entreprise en automatisant des processus ou des tâches qui nécessitaient auparavant des ressources humaines. L'intelligence artificielle permet aussi d'exploiter des données à un niveau qu'aucun humain ne pourrait jamais atteindre."
+        ],
+        "humour noir": [
+            "oui j'adore ça ! L'humour noir consiste notamment à évoquer avec détachement, voire avec amusement, les choses les plus horribles ou les plus contraires à la morale en usage (la mort et ses thèmes connexes sont fréquents dans cette forme d'humour)."
+        ],
+        "toi aussi": [
+            "non je ne serais jamais comme toi !"
+        ],
+        "php-ml, php ml": [
+            "PHP-ML est une bibliothèque développée pour gérer les tâches d'apprentissage automatique à l'aide de PHP, et cette bibliothèque comprend des algorithmes ML, ainsi que des API de traitement de données qui peuvent gérer les nettoyages de données et les extractions de fonctionnalités."
+        ],
+        "react js, react": [
+            "React est une bibliothèque JavaScript open-source qui est utilisée pour construire des interfaces utilisateur spécifiquement pour des applications d'une seule page. Elle est utilisée pour gérer la couche d'affichage des applications web et mobiles."
+        ],
+        "svelte js, svelte": [
+            "Svelte n'est pas une librairie. Il permet ainsi de créer des applications web beaucoup plus performantes et plus légères en créant des composants, avec une syntaxe propre . svelte et en les compilant en JavaScript. En somme, Svelte est à la frontière entre un framework et un compilateur."
+        ],
+        "jquery": [
+            "jQuery est une bibliothèque Javascript rapide, légère, et pour autant, riche en fonctionnalités. Elle simplifie grandement la programmation Javascript en offrant une interface facile d'utilisation pour de nombreuses tâches courantes."
+        ],
+        "python": [
+            "Les principales caractéristiques de la programmation Python incluent un langage interprété facile à lire et à coder, extensible, compatible avec plusieurs plates-formes, une prise en charge de l'interface graphique utilisateur et orienté objet. Il est beaucoup utilisé dans les milieux universtaires pour la conception de prototypes."
+        ],
+        "php": [
+            "PHP est un langage de script HTML, exécuté coté serveur. Sa syntaxe est empruntée aux langages C, Java et Perl, et est facile à apprendre. Le but de ce langage est de permettre aux développeurs web d'écrire des pages dynamiques rapidement, mais vous pouvez faire beaucoup plus avec PHP."
+        ],
+        "html": [
+            "HTML (pour HyperText Markup Language, qu'on peut traduire en « langage de balisage hypertexte ») est le langage utilisé pour structurer une page web et son contenu. On peut par exemple organiser le contenu en un ensemble de paragraphes, une liste d'éléments, utiliser des images ou des tableaux de données."
+        ],
+        "css": [
+            "CSS est un langage basé sur des règles — on définit des règles de styles destinées à des éléments ou des groupes d'éléments particuliers dans la page. Par exemple, « Je veux que le titre principal de ma page s'affiche en rouge en gros caractères. » La règle commence par un sélecteur, l'élément HTML mis en forme."
+        ],
+        "javascript, java script": [
+            "JavaScript est un langage de programmation utilisé par les développeurs pour concevoir des sites web interactifs. Les fonctions JavaScript peuvent permettre d'améliorer l'expérience utilisateur d'un site web, de la mise à jour des flux de médias sociaux à l'affichage d'animations et de cartes interactives."
+        ],
+        "web assembly, webassembly": [
+            "WebAssembly est un nouveau type de code qui peut être exécuté dans un navigateur web moderne. C'est un langage bas niveau, semblable à l'assembleur permettant d'atteindre des performances proches des applications natives (par exemple écrites en C/C++) tout en fonctionnant sur le Web."
+        ],
+        "chatbot, chat bot": [
+            "Au niveau le plus fondamental, un chatbot est un programme informatique qui simule et traite une conversation humaine (écrite ou parlée), permettant aux humains d'interagir avec des terminaux digitaux comme s'ils communiquaient avec une personne réelle."
+        ],
+        "llm": [
+            "Un grand modèle de langage (LLM ou Large Language Model) est une technologie d'IA avancée reposant sur la compréhension et l'analyse de texte. Les LLM sont plus justes que les algorithmes de machine learning traditionnels dans la mesure où ils sont capables de saisir les complexités du langage naturel."
+        ],
+        "ml, machine learning": [
+            "Le machine learning (ML) est une forme d'intelligence artificielle (IA) qui est axée sur la création de systèmes qui apprennent, ou améliorent leurs performances, en fonction des données qu'ils traitent."
+        ],
+        "nlp": [
+            "le NLP (Natural Language Processing) permet aux ordinateurs et aux appareils numériques de reconnaître, comprendre et générer du texte et de la parole en combinant la linguistique computationnelle (la modélisation du langage humain basée sur des règles) avec la modélisation statistique, le machine learning et l'apprentissage profond."
+        ],
+        "rag": [
+            "La RAG permet aux développeurs de fournir les dernières recherches, statistiques ou actualités relatives aux modèles génératifs. Ils peuvent utiliser la RAG pour connecter le LLM directement à des flux de médias sociaux en direct, à des sites d'actualités ou à d'autres sources d'information fréquemment mises à jour."
+        ],
+        "bsd": [
+            "BSD signifie \"Berkeley Software Distribution\" (ou \"Distribution logicielle de Berkeley\"). C’est le nom donné aux distributions de code source provenant de l’Université de Californie, située à Berkeley; ces distributions était à l’origine, une extension du système d’exploitation UNIX® AT&amp;T. Plusieurs projets de systèmes d’exploitation Open Source sont basés sur une version de ce code connue sous le nom de 4.4BSD-Lite. De plus, elle est composée d’éléments issus d’autres projets Open Source, y compris ceux du projet GNU."
+        ],
+        "microsoft": [
+            "Microsoft est une multinationale informatique et micro-informatique américaine, dont l'activité est principalement la vente de logiciels, de systèmes d'exploitation propriétaire et d'électronique grand public. L'entreprise propose des produits connus mondialement, comme la suite Office (Excel, Word…)."
+        ],
+        "linux": [
+            "Né en 1991, Linux est un noyau de système d'exploitation (en anglais kernel) permettant de gérer l'exécution d'application que ce soit sur un terminal ou un serveur. Il se charge également de piloter l'ensemble des processus matériels associés, informatiques et réseau. Linux est disponible en open source sous licence  GNU, pour GNU GPL (voir le site officiel du noyau Linux : kernel.org)."
+        ],
+        "apple": [
+            "Apple est une entreprise multinationale qui crée et commercialise des produits électroniques grand public, des ordinateurs et des logiciels. Parmi eux, se trouvent les ordinateurs Macintosh, l'iPhone et l'iPad, l'Apple Watch, le lecteur iTunes ou des logiciels comme Final Cut Pro."
+        ],
+        "at&amp;t": [
+            "AT&T Corporation, abréviation de son ancien nom, American Telephone and Telegraph Company, ést une société de télécommunications américaine qui fournissait des services de télécommunications vocales, vidéo, de données et Internet ainsi que des services professionnels aux entreprises, aux consommateurs et aux agences gouvernementales .\nAT&T est le plus grand fournisseur de services téléphoniques locaux et longues distances et de xDSL des États-Unis et le 2e opérateur de services mobiles. Le siège social mondial d'AT&T est basé à Dallas, au Texas."
+        ],
+        "sun microsystems": [
+            "Sun Microsystems Inc. était un fabricant dans le secteur de l'informatique et des techniques de réseau, connu pour le développement de serveurs, de systèmes de stockage, de solutions logicielles ainsi que de la technologie Java. L'entreprise a été rachetée en 2010 par Oracle Corporation."
+        ],
+        "raspberry pi, raspberry": [
+            "Nous proposons plusieurs modèles de Raspberry Pi avec des kits ou sans kits. Tu peux trouver leurs descriptions techniques et les prix sur notre site https://www.kubii.com.\n\nLes prix de nos produits varient en fonction des modèles et des kits choisis. Voici quelques exemples :\n- Raspberry Pi 400 : 70€ seul, 100€ avec kit\n- Raspberry Pi 3B : 35€ seul, 60€ avec kit\n- Raspberry Pi 5 : 80€ seul, 120€ avec kit\n- Raspberry Pi Zero W : 10€ seul, 25€ avec kit\nPour plus de détails, consulte notre site https://www.kubii.com.\n\nNos kits incluent tout ce dont tu as besoin pour commencer avec Raspberry Pi. Consulte notre site pour voir les options et les kits disponibles.\n\nLe Raspberry Pi 400 est intégré dans un clavier compact et est livré avec un processeur quad-core Cortex-A72 à 1,8 GHz, 4 Go de RAM, et supporte la vidéo 4K. Prix : 70€ seul, 100€ avec kit.\n\nLe Raspberry Pi 3B est équipé d'un processeur quad-core Cortex-A53 à 1,2 GHz, 1 Go de RAM, et dispose du Wi-Fi intégré et Bluetooth. Prix : 35€ seul, 60€ avec kit.\n\nLe Raspberry Pi 5 offre des performances exceptionnelles avec un processeur quad-core Cortex-A76 à 2,0 GHz, 8 Go de RAM, et supporte deux écrans 4K. Prix : 80€ seul, 120€ avec kit.\n\nLe Raspberry Pi Zero W est ultra-compact et économique, avec un processeur monocœur ARM1176JZF-S à 1 GHz, 512 Mo de RAM, et dispose du Wi-Fi intégré et Bluetooth. Prix : 10€ seul, 25€ avec kit.\n\nLe Raspberry Pi 4 est équipé d'un processeur quad-core Cortex-A72 à 1,5 GHz, avec des options de RAM allant de 1 Go à 8 Go. Il dispose de ports USB 3.0 et 2.0, HDMI, et supporte la vidéo 4K. Prix : 35€ pour 1 Go, 55€ pour 2 Go, 75€ pour 4 Go, 95€ pour 8 Go.\n\nLe Raspberry Pi 3B+ est une amélioration du modèle 3B avec un processeur quad-core Cortex-A53 à 1,4 GHz, 1 Go de RAM, et dispose du Wi-Fi intégré et Bluetooth. Prix : 35€ seul, 60€ avec kit.\n\nLe Raspberry Pi Zero 2 W est doté d'un processeur quad-core Cortex-A53 à 1 GHz, 512 Mo de RAM, et dispose du Wi-Fi intégré et Bluetooth. Prix : 15€ seul, 30€ avec kit.\n\nNous offrons plusieurs options de livraison :\n- Standard : 3-5 jours ouvrés\n- Express : 1-2 jours ouvrés\nLes frais de port dépendent du poids de ta commande et de ton lieu de résidence."
+        ],
+        "tes caracteristiques, tes caractéristiques": [
+            "Voici quelques caractéristiques clés des chatbots : les chatbots interagissent avec les utilisateurs de manière conversationnelle, simulant une discussion naturelle. Cela peut inclure la réponse à des questions, la fourniture d'informations, la réalisation de tâches et bien plus encore."
+        ],
+        "liste des commandes, tes commandes": [
+            "voici ma liste de commandes :\n- heure\n- date\n- clear\n- google\n- bing\n- wikipedia\n- projets raspberry\n- kubii\n- meteo\n- metar "
+        ],
+        "tu comprends, tu ne comprends": [
+            "je ne comprends uniquement ce pour quoi j'ai été programmé !"
+        ],
+        "quelle est la différence entre un programmeur et un developpeur, programmeur et un développeur, developpeur et programmeur, programmeur et développeur, développeur, développeurs, programmeur, programmeurs": [
+            "les termes « programmeur » et « développeur » sont très souvent utilisés de façon interchangeable. Mais ces deux métiers sont bel et bien distincts et comportent leurs propres particularités, tâches et enjeux.\n\nUn programmeur doit détenir une certaine formation en mathématiques, mais il n’a pas obligatoirement besoin d’être un excellent mathématicien. Il doit cependant posséder les connaissances nécessaires pour bien comprendre les différents algorithmes avec lesquels il travaillera.\n\nUn programmeur passera la plupart de son temps à l’ordinateur et moins à faire de la gestion de projet. Celui-ci n’a donc pas nécessairement besoin de fortes aptitudes communicationnelles pour bien travailler.\n\nLa plupart des programmeurs travaillent au sein d’une équipe. Leur travail est supervisé par un chef d’équipe qui s’assure que chacun connaît les tâches qui lui incombent et sera en mesure d’exécuter celles-ci.\n\nPuisqu’ils touchent à plusieurs branches d’un même projet, les développeurs doivent souvent interagir avec plusieurs personnes (clients, collègues, etc.). Ainsi, contrairement aux programmeurs, les développeurs doivent posséder de bonnes aptitudes interpersonnelles et communicationnelles.\n\nProgrammeur et développeur : deux professions semblables, mais bien distinctes :\n\nla différence principale entre un programmeur et un développeur est la variété de tâches et de responsabilités qui leur sont confiées. Un programmeur est chargé d’écrire un code sans faille afin de créer un logiciel fonctionnel. Un développeur sait aussi coder et utiliser différents langages informatiques, mais il s’occupe surtout de l’élaboration de solutions à des problèmes informatiques.\n\nBien que ces deux professions soient semblables, elles sont toutefois bien distinctes et se complémentent. Les programmeurs et les développeurs travaillent fréquemment ensemble pour arriver au même put : créer des programmes informatiques hors pair. "
+        ],
+        "différence entre un technicien et un développeur, technicien et developpeur, developpeur et technicien, développeur et technicien, technicien": [
+            "Le développeur est un technicien qui est en charge de la réalisation d'une application ou d'un système (site web, application..) Son rôle est d'exprimer les besoins fonctionnels de ce qui doit se produire ou s'afficher lors de la navigation, il les traduira par la suite en code.\n\nLes tâches principales du développeur sont :\n\n- Participer à l'analyse afin de cerner les besoins des utilisateurs avant d'établir un plan de programmation\n- Déterminer les solutions techniques à mettre en place pour créer le logiciel ou l'application en veillant à respecter le cahier des charges\n- Créer un prototype du futur logiciel ou de la future application \n- Se charger de l'écriture du programme soit en totalité, soit partiellement s'il travaille avec une équipe de développeurs\n- Utiliser des progiciels qui facilitent son travail de programmation et de codage informatique\n- Participer aux phases d'essai afin de tester les produits finalisés\n- Prendre en charge la rédaction des fiches techniques d'installation et d'utilisation\n- S'occuper, si besoin, du soutien technique et effectuer des opérations de maintenance en cas d'erreurs après la sortie du logiciel ou de l'application\n- Se charger de faire évoluer et d'améliorer les programmes qu'il a conçus.\n\nLes techniciens en informatique quand à eux, exploitent et entretiennent des réseaux, des logiciels et des équipements informatiques. Elles mettent en place et assurent la maintenance de sites Internet et intranet et de serveurs. Ce groupe inclut les superviseur(e)s des technicien(ne)s de réseau informatique.\n\nLes tâches principales du technicien sont : \n\n- Installer et expérimenter le matériel informatique ainsi que les logiciels de réseaux et de systèmes d'exploitation.\n- Rechercher les causes des pannes et résoudre les problèmes rencontrés par les utilisateur(-trice)s de réseaux.\n- Contrôler le rendement, l'accès et l'utilisation des systèmes et des réseaux.\n- Mettre à jour le matériel et les logiciels liés aux serveurs Web.\n- Implanter des logiciels de contrôle de trafic et de sécurité de réseaux et optimiser le rendement du serveur.\n- Effectuer des contrôles de routine, de sécurité et de qualité et tenir des registres de ceux-ci.\n- Sauvegarder et restaurer des données.\n- Contrôler et surveiller l'utilisation du courrier électronique, de la navigation sur Internet et des logiciels installés."
+        ],
+        "ops et devops, devops et ops, ops, devops, cloudops": [
+            "DevOps est une méthodologie utilisée dans le développement de logiciels et dans le secteur informatique. Utilisé comme un ensemble de pratiques et d'outils, DevOps intègre et automatise le travail de développement de logiciels (Dev) et d'opérations informatiques (Ops) afin d'améliorer et de raccourcir le cycle de vie du développement des systèmes.\n\nLes équipes opérationnelles, communément appelées “Ops”, sont garantes du bon fonctionnement du système informatique.\n\nil y a également CloudOps qui est une question d'opérations continues. CloudOps est une façon de faire du DevOps, où au lieu d'utiliser des centres de données sur site, on exploite la puissance du cloud computing . CloudOps augmente les capacités de DevOps. Les plateformes de cloud computing offrent de nombreux avantages par rapport à l'infrastructure informatique traditionnelle."
+        ],
+        "des restrictions, tes restrictions": "je n'ai pour restriction, uniquement ce que tu inscris dans ma base de données !"
+    }
+}
